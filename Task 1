@@ -1,0 +1,7 @@
+<?php
+  $exampleJSON = '[{"Name": "Greg"},{"Name": "Vina"},{"Name" : "Chen"}]'
+
+  $exampleArray = json_decode($exampleJSON, true);
+  print_r($exampleArray);
+  echo $exampleArray[0]["Name"];
+?>
